@@ -16,8 +16,20 @@
         @* BEGIN Menu *@
         <ul class="sidebar-menu" data-widget="tree">
             <li class="header">HEADER</li>
-            <li class="@Url.IsLinkActive("Index", "Home")">
-                <a href="@Url.Action("Index", "Home")"><i class="fa fa-link"></i> <span>Home</span></a>
+            <li>
+                <a data-id="2" data-url="Home/SecondTab" data-descripcion="Prueba boton"
+                   class="add_tab"> <i class="fa fa-link"></i> <span>Home</span></a>
+
+
+                <a data-id="1" data-url="Home/FirstTab" data-descripcion="Prueba boton"
+                   class="add_tab">
+                    AddX
+                </a>
+                <a data-id="3" data-url="Home/FirstTab" data-descripcion="Prueba botson"
+                   class="add_tab">
+                    AddX
+                </a>
+
             </li>
             <li class="@Url.IsLinkActive("AnotherLink", "Home")">
                 <a href="@Url.Action("AnotherLink", "Home")"><i class="fa fa-link"></i> <span>Another Link</span></a>

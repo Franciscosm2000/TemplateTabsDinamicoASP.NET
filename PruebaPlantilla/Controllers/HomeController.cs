@@ -24,7 +24,7 @@ namespace PruebaPlantilla.Controllers
         public ActionResult SecondTab()
         {
             //return PartialView("_SecondTab");
-            return PartialView("_FirstTab");
+            return PartialView("_Segundo");
         }
     }
 }

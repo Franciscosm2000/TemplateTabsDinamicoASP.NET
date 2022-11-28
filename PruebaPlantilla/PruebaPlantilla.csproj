@@ -169,6 +169,7 @@
     <Content Include="Content\fonts\line-awesome\fonts\line-awesome.ttf" />
     <Content Include="Content\fonts\line-awesome\fonts\line-awesome.woff" />
     <Content Include="Content\fonts\line-awesome\fonts\line-awesome.woff2" />
+    <Content Include="Views\Home\_Segundo.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
