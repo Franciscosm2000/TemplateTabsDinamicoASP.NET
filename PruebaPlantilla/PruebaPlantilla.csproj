@@ -148,6 +148,8 @@
     <Content Include="Content\js\plugins\jquery.scrolling\jquery.scrolling-tabs.js" />
     <Content Include="Content\js\plugins\jquery.scrolling\jquery.scrolling-tabs.min.css" />
     <Content Include="Content\js\plugins\jquery.scrolling\jquery.scrolling-tabs.min.js" />
+    <Content Include="Content\js\plugins\sweetalert\sweetalert.css" />
+    <Content Include="Content\js\plugins\sweetalert\sweetalert.min.js" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\Plantilla.js" />
     <Content Include="Web.config" />
